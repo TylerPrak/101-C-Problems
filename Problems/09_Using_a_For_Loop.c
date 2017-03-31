@@ -7,7 +7,7 @@ int		main(int argc, char *argv[]) {
 	FILE * fp;
 	fp = fopen("./Testdata/testdata9", "r");
 	
-	for (i = 0;i < 5;i++) {
+	for (i = 0; i < 5; i++) {
 		fscanf(fp, "%d", &num);
 		printf("%d ", num);
 	}
