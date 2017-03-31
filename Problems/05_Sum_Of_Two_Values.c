@@ -10,7 +10,7 @@ int		main(int argc, char *argv[]) {
 	scanf("%d", &num2);
 
 	sum = num1 + num2;
-    printf("The sum of the two integers you entered is %d.\n", sum);
+	printf("The sum of the two integers you entered is %d.\n", sum);
 
 	return 0;
 }
