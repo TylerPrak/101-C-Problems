@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int 	main (int argc, char *argv[]) {
+int		main(int argc, char *argv[]) {
+	
 	int num1, num2, sum;
 
 	printf ("Please enter an integer.\n");

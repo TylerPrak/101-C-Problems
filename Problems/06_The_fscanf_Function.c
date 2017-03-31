@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int		main (int argc, char *argv[]) {
+int		main(int argc, char *argv[]) {
 
 	int num;
 	
@@ -8,7 +8,7 @@ int		main (int argc, char *argv[]) {
 	fp = fopen ("testdata6", "r");
 	fscanf(fp,"%d", &num);
 
-	printf("%d\n", num);
+		printf("%d\n", num);
 
 	fclose(fp);
 	return 0;
