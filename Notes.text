@@ -1,4 +1,4 @@
 Just a few notes about compiling the binary files.
 
-Use "gcc FILENAME -lm " flag in Problem 15-16
+Use "gcc FILENAME -lm " flag in Problem 15-16, 20
 Use CTRL-D to reach EOF in Problem 17
