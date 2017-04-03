@@ -10,5 +10,7 @@ int		main(int argc, char *argv[]) {
 
 	while ((c = fgetc(fp)) != EOF)
 		printf("%c", toupper(c));
+	
+	fclose(fp);
 	return 0;
 }  
