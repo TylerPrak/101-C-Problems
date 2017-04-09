@@ -9,7 +9,6 @@ void		ft_Swap(int *num1, int *num2) {
 	*num1 = z;
 }
 
-
 void		ft_GetArray(int *num, char *argv) {
 
 	int i;
@@ -18,18 +17,19 @@ void		ft_GetArray(int *num, char *argv) {
 	fp = fopen(argv, "r");
 	for (i = 0;i < 10;i++)
 		fscanf(fp, "%d", &num[i]);
+	
 	fclose(fp);
 }
 
-void	 ft_CopyArray(int *num, int *newNum) {
+void	 ft_CopyArray(int *num, int *sortedNum) {
 	
 	int i;
 	
 	for (i = 0; i < 10;i++)
-		newNum[i] = num[i];
+		sortedNum[i] = num[i];
 }
 
-void 	ft_BubbleSort (int *newNum) {
+void 	ft_BubbleSort (int *sortedNum) {
 
 	int i, j, z, c, max;
 	max = 10;
@@ -38,8 +38,8 @@ void 	ft_BubbleSort (int *newNum) {
 		i = 0;	
 		j = 1;
 		while (j < max) {
-			if (newNum[i] > newNum[j])
-				ft_Swap(&newNum[i], &newNum[j]);
+			if (sortedNum[i] > sortedNum[j])
+				ft_Swap(&sortedNum[i], &sortedNum[j]);
 			i++;
 			j++;
 		}
